@@ -484,20 +484,22 @@ body footer
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 25px;
-    padding: 10px;
+    
+    gap: 15px;
+    margin-top: 20px;
 }
 
 body footer .footer-default
 {
     display: flex;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
+    padding: 20px;
+    width: 360px;
     gap: 15px;
-    flex-grow: 1;
 }
 
 body footer .footer-default img
@@ -516,6 +518,7 @@ body footer .footer-default p
     font-style: italic;
     font-family: 'Courier New', Courier, monospace;
     color: var(--blue);
+    text-align: center;
 }
 
 body footer .footer-default .redes-sociais
@@ -594,3 +597,25 @@ body footer .footer-default .links
     gap: 8px;
 }
 
+body footer .footer-default .location iframe
+{
+    width: 100%;
+    height: 100%;
+}
+
+body footer .copy
+{
+    margin-top: 20px;
+    width: 100%;
+    background-color: var(--blue);
+    
+}
+
+body footer .copy p
+{
+    color: white;
+    padding: 20px 10px;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
