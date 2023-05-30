@@ -1,0 +1,212 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+
+    body main .container section form .form-option input,
+    body main .container section form .form-option textarea
+    {
+        width: 474px;
+    }
+
+    body main .container img.img-default
+    {   
+        width: 70%;
+    }
+
+    body main .container .svg-blue
+    {
+        background-color: var(--blue-secundare);
+        transform: translateY(4.0px);
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+    body main .container .section-info
+    {   
+        position: relative;
+        background-image: url("https://renagua.com.br/wp-content/uploads/2023/04/Inicio-renagua-desktop.webp");
+        background-position: bottom center;
+
+    }
+
+    body main .container .section-info .info-describe
+    {   
+        width: fit-content;
+        padding: 20px;
+        top: 0px;
+        left: 0px;
+
+    }
+
+    body main .container .info-details 
+    {
+        display: flex;
+    }
+
+    body main .container .info-details .img-garrafoes img
+    {
+        width: 212px;
+        animation: UpDown 4s ease-in-out  alternate infinite;
+    }
+
+    @keyframes UpDown {
+        from
+        {
+            transform: translateY(-10px);
+        }
+        to
+        {
+            transform: translateY(320px);
+        }
+    }
+
+    body main .container section.details-default
+    {
+        width: 100%;
+        flex-direction: row;
+
+    }
+
+    body main .container img.img-default
+    {   
+        width: 360px;
+    }
+
+    body main .container section form 
+    {
+        margin-top: 35px;
+        gap: 25px;
+    }
+
+    body main .container section form .form-option input,
+    body main .container section form .form-option textarea
+    {
+        font-size: 13px;
+    }
+
+    body main .container section form .form-option input:focus ~ label,
+    body main .container section form .form-option input:valid ~ label,
+    body main .container section form .form-option textarea:focus ~ label,
+    body main .container section form .form-option textarea:valid ~ label
+    {   
+        font-size: 14px;
+        transform: translateY(-30px) translateX(-5px);
+    }
+
+    body main .container section form .form-option label
+    {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        margin-left: 10px;
+        transition: all .2s ease-in-out;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(0, 0, 0, 0.549);
+        font-size: 15px;
+        font-weight: normal;
+        color: rgba(0, 0, 0, 0.319);
+    }
+
+    body main .container section.details-default .img-emp
+    {
+        width: 760px;
+    }
+
+}
+
+@media only screen and (min-width: 992px)
+{
+    body main .container .section-info
+    {   
+        position: relative;
+        background-image: url("https://renagua.com.br/wp-content/uploads/2023/04/Inicio-renagua-desktop.webp");
+        background-position: bottom center;
+
+    }
+
+    body main .container .section-info .info-describe
+    {   
+        width: fit-content;
+        padding: 20px;
+        top: 0px;
+        left: 0px;
+
+    }
+
+    body main .container .info-details 
+    {
+        display: flex;
+    }
+
+    body main .container .info-details .img-garrafoes img
+    {
+        width: 280px;
+        animation: UpDown 4s ease-in-out  alternate infinite;
+    }
+
+    @keyframes UpDown {
+        from
+        {
+            transform: translateY(-10px);
+        }
+        to
+        {
+            transform: translateY(220px);
+        }
+    }
+
+    body main .container section.details-default
+    {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    body main .container img.img-default
+    {   
+        width: 520px;
+    }
+
+    body main .container section form 
+    {
+        margin-top: 35px;
+        gap: 25px;
+        padding: 0 20px;
+    }
+
+    body main .container section form .form-option input,
+    body main .container section form .form-option textarea
+    {
+        width: 600px;
+        font-size: 13px;
+    }
+
+    body main .container section form .form-option input:focus ~ label,
+    body main .container section form .form-option input:valid ~ label,
+    body main .container section form .form-option textarea:focus ~ label,
+    body main .container section form .form-option textarea:valid ~ label
+    {   
+        font-size: 14px;
+        transform: translateY(-30px) translateX(-5px);
+    }
+
+    body main .container section form .form-option label
+    {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        margin-left: 10px;
+        transition: all .2s ease-in-out;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(0, 0, 0, 0.549);
+        font-size: 15px;
+        font-weight: normal;
+        color: rgba(0, 0, 0, 0.319);
+    }
+
+    body main .container section.details-default .img-emp
+    {
+        width: 860px;
+    }
+}

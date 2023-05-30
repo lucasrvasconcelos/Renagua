@@ -156,7 +156,6 @@ body main .container .section-info .info-describe
     justify-content: center;
     flex-direction: column;
     gap: 20px;
-    
 }
 
 body main .container .section-info .info-describe h1
@@ -300,16 +299,6 @@ body main .container .vendedores
     margin-top: 20px;
 }
 
-body main .container img.img-default
-{   
-    padding: 25px;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50px;
-    overflow: hidden;
-    transition: all .3s ease-in-out;
-}
-
 body main .container section.details-default
 {
     width: 100%;
@@ -319,6 +308,16 @@ body main .container section.details-default
     justify-content: center;
     gap: 20px;
     padding: 20px 0;
+}
+
+body main .container img.img-default
+{   
+    padding: 25px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
 }
 
 body main .container section ul.title-default
@@ -337,12 +336,12 @@ body main .container section ul.title-default
 
 body main .container section ul li.list-default
 {
-    font-weight: lighter;
     font-size: 18px;
+    font-weight: normal;
     letter-spacing: 1px;
     margin-top: 25px;
     text-align: justify;
-    font-family: "Montserrat", Sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
@@ -486,9 +485,8 @@ body footer
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    
-    gap: 15px;
-    margin-top: 20px;
+    gap: 10px;
+    margin-top: 35px;
 }
 
 body footer .footer-default
@@ -497,9 +495,10 @@ body footer .footer-default
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    padding: 20px;
-    width: 360px;
+    width: 280px;
+    height: 289px;
     gap: 15px;
+
 }
 
 body footer .footer-default img
@@ -510,15 +509,17 @@ body footer .footer-default img
 body footer .footer-default h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: var(--blue);
+    font-size: 24px;
 }
 
 body footer .footer-default p
 {
-    font-size: 18px;
+    font-size: 14px;
     font-style: italic;
     font-family: 'Courier New', Courier, monospace;
     color: var(--blue);
-    text-align: center;
+    text-align: left;
+    padding-left: 20px;
 }
 
 body footer .footer-default .redes-sociais
@@ -527,8 +528,8 @@ body footer .footer-default .redes-sociais
     align-items: center;
     justify-content: flex-start;
     flex-direction: row;
-    padding: 20px;
     width: 100%;
+    margin-top: 15px;
     gap: 15px;
 }
 
@@ -541,14 +542,14 @@ body footer .footer-default .redes-sociais a
     justify-content: center;
     text-decoration: none;
     border-radius: 50%;
-    padding: 25px;
+    padding: 20px;
     color: black;
     background-color: var(--blue);
 }
 
 body footer .footer-default .redes-sociais a i
 {
-    font-size: 35px;
+    font-size: 21px;
     color: white;
     transition: all .2s ease-in-out;
 }
@@ -585,7 +586,7 @@ body footer .footer-default .links a:hover
 
 body footer .footer-default .outras-redes a i
 {
-    font-size: 29px;
+    font-size: 19px;
 }
 
 body footer .footer-default .links
@@ -594,7 +595,7 @@ body footer .footer-default .links
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    gap: 8px;
+    gap: 3px;
 }
 
 body footer .footer-default .location iframe
@@ -615,7 +616,7 @@ body footer .copy p
 {
     color: white;
     padding: 20px 10px;
-    font-size: 20px;
+    font-size: 16px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
 }
