@@ -116,7 +116,7 @@
 
 }
 
-@media only screen and (min-width: 992px)
+@media only screen and (min-width: 992px) and (max-width: 1088px)
 {
     body main .container .section-info
     {   
@@ -173,6 +173,113 @@
         margin-top: 35px;
         gap: 25px;
         padding: 0 20px;
+    }
+
+    body main .container section form .form-option input,
+    body main .container section form .form-option textarea
+    {
+        width: 600px;
+        font-size: 13px;
+    }
+
+    body main .container section form .form-option input:focus ~ label,
+    body main .container section form .form-option input:valid ~ label,
+    body main .container section form .form-option textarea:focus ~ label,
+    body main .container section form .form-option textarea:valid ~ label
+    {   
+        font-size: 14px;
+        transform: translateY(-30px) translateX(-5px);
+    }
+
+    body main .container section form .form-option label
+    {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        margin-left: 10px;
+        transition: all .2s ease-in-out;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(0, 0, 0, 0.549);
+        font-size: 15px;
+        font-weight: normal;
+        color: rgba(0, 0, 0, 0.319);
+    }
+
+    body main .container section.details-default .img-emp
+    {
+        width: 860px;
+    }
+}
+
+@media only screen and (min-width: 1088px)
+{
+    body main .container .section-info
+    {   
+        position: relative;
+        background-image: url("https://renagua.com.br/wp-content/uploads/2023/04/Inicio-renagua-desktop.webp");
+        background-position: bottom center;
+
+    }
+
+    body main .container .section-info .info-describe
+    {   
+        width: fit-content;
+        padding: 20px;
+        top: 0px;
+        left: 0px;
+        font-size: 20px;
+    }
+
+    body main .container .info-details 
+    {
+        display: flex;
+    }
+
+    body main .container .info-details .img-garrafoes img
+    {
+        width: 280px;
+        animation: UpDown 4s ease-in-out  alternate infinite;
+    }
+
+    @keyframes UpDown {
+        from
+        {
+            transform: translateY(-10px);
+        }
+        to
+        {
+            transform: translateY(200px);
+        }
+    }
+
+    body main .container section.details-default
+    {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    body main .container section.details-default ul
+    {
+        font-size: 40px;
+    }
+
+    body main .container section.details-default ul li
+    {
+        font-size: 25px;
+    }
+
+    body main .container img.img-default
+    {   
+        width: 520px;
+        
+    }
+
+    body main .container section form 
+    {
+        margin-top: 35px;
+        gap: 25px;
+        padding: 25px 20px;
+        background-color: rgba(0, 0, 0, 0.297);
     }
 
     body main .container section form .form-option input,
